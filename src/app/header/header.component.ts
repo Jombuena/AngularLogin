@@ -1,3 +1,4 @@
+import { NgComponentOutlet } from '@angular/common/src/directives/ng_component_outlet';
 import { Component } from '@angular/core';
 
 @Component({
