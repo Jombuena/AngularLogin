@@ -1,0 +1,36 @@
+
+.signupMarquee{
+    height: auto;
+    width: min-content;
+    font-family: 'Open Sans', sans-serif;
+    background-color: rgba(42, 168, 218, 0.301);
+    border: 1px solid #a8a8a8;
+    margin-left: 15px;
+    margin-top: 15px;
+    margin-right: 15px;
+    position: relative;
+}
+.signupForm{
+    padding:45px;
+    margin-left: 5px;
+    position: relative;
+    
+}
+input{
+    width: 200px;
+}
+
+.btnSignupForm{
+    width: 100%;
+}
+
+
+
+
+/* 
+-khtml-opacity:.50; 
+-moz-opacity:.50; 
+-ms-filter:”alpha(opacity=50)”;
+filter:alpha(opacity=50);
+filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0.5);
+opacity:.50;  */

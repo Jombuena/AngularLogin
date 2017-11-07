@@ -3,5 +3,12 @@
     float: left;
     width: 45%;
     margin-left: 20px;
+    color:white;
+    text-shadow: -2px 2px 0 #000;
+  
+}
+#featuresTitle{
+    color:white;
+    text-shadow: -2px 2px 0 #000; 
 }
 

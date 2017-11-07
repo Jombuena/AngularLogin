@@ -1,7 +1,8 @@
-
-<div class="signupForm" style="padding-left:45px;  padding-top:45px">
-  <input id="fakeName" type="text" placeholder="Insert your Name "/><br><br>
-  <input id="fakePass" type="password" placeholder="Insert a fake Password"/><br><br>
-  <input id="fakeMail" type="email" placeholder="Insert your Email"/><br><br>
-  <button>Sign Up</button>
-</div>
+  <div class="signupMarquee">
+    <form class="signupForm"  [formGroup]="signupForm" (submit)="registerUser($event)">
+      <input formControlName="name" type="text" placeholder="Insert your Name"><br><br>
+      <input formControlName="password" type="password" placeholder="Insert a fake Password"><br><br>
+      <input formControlName="email" type="email" placeholder="Insert your Email"><br><br>
+      <button class="btnSignupForm" type="submit">Sign Up</button>
+    </form>
+  </div>
